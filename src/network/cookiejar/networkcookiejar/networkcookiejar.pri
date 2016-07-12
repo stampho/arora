@@ -1,5 +1,11 @@
 INCLUDEPATH += $$PWD
 DEPENDPATH += $$PWD
 
-HEADERS += trie_p.h networkcookiejar.h twoleveldomains_p.h networkcookiejar_p.h
-SOURCES += networkcookiejar.cpp
+HEADERS += \
+    $$PWD/networkcookiejar.h \
+    $$PWD/networkcookiejar_p.h\
+    $$PWD/trie_p.h \
+    $$PWD/twoleveldomains_p.h
+
+SOURCES += \
+    $$PWD/networkcookiejar.cpp

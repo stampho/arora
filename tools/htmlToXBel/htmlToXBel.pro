@@ -1,20 +1,16 @@
 TEMPLATE = app
 TARGET = htmlToXBel
-DEPENDPATH += .
-INCLUDEPATH += .
+
+DEPENDPATH += $$PWD
+INCLUDEPATH += $$PWD
 
 win32|os2: CONFIG += console
 mac:CONFIG -= app_bundle
 
-QT += network webkit
+QT += network webkitwidgets widgets
 
 # Input
 SOURCES += main.cpp
-
-RCC_DIR     = $$PWD/.rcc
-UI_DIR      = $$PWD/.ui
-MOC_DIR     = $$PWD/.moc
-OBJECTS_DIR = $$PWD/.obj
 
 RESOURCES += source.qrc
 

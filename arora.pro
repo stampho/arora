@@ -1,5 +1,5 @@
-lessThan(QT_VERSION, 4.5) {
-    error("Arora requires Qt 4.5 or greater")
+lessThan(QT_VERSION, 5.0) {
+    error("Arora requires Qt 5.0 or greater")
 }
 
 TEMPLATE = subdirs

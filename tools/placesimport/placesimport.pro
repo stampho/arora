@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = arora-placesimport
-DEPENDPATH += .
-INCLUDEPATH += .
+DEPENDPATH += $$PWD
+INCLUDEPATH += $$PWD
 
 win32|os2: CONFIG += console
 mac:CONFIG -= app_bundle

@@ -2,14 +2,17 @@ INCLUDEPATH += $$PWD
 DEPENDPATH += $$PWD
 
 HEADERS += \
-  clicktoflash.h \
-  clicktoflashplugin.h
+    $$PWD/clicktoflash.h \
+    $$PWD/clicktoflashplugin.h
 
 SOURCES += \
-  clicktoflash.cpp \
-  clicktoflashplugin.cpp
+    $$PWD/clicktoflash.cpp \
+    $$PWD/clicktoflashplugin.cpp
 
-FORMS += clicktoflash.ui clicktoflashsettings.ui
+FORMS += \
+    $$PWD/clicktoflash.ui \
+    $$PWD/clicktoflashsettings.ui
 
-RESOURCES += clicktoflash.qrc
+RESOURCES += \
+    $$PWD/clicktoflash.qrc
 
